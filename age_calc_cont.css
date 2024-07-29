@@ -1,0 +1,192 @@
+/* Age Calculator Container Style File */
+
+.age_calc_cont{
+    border: 1px solid rgba(255, 255, 255, .1);
+    border-radius: 20px;
+
+    background: rgba(255, 255, 255, .25);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+
+    box-shadow: -5px -5px 20px rgba(0, 0, 0, .2), 5px 5px 20px rgba(255, 255, 255, .1);
+
+    height: 400px;
+    width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 10px;
+}
+
+.title_cont{
+    /* border: 1px solid red; */
+
+    height: 50px;
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.title_txt{
+    /* border: 1px solid red; */
+
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: large;
+    font-weight: 500;
+}
+
+.input_cont, .todays_date_cont{
+    /* border: 1px solid red; */
+
+    height: 100px;
+    width: 75%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 25px;
+}
+.age_input, .todays_date_input{
+    border: 1px solid red;
+    border: none;
+    border-radius: 10px;
+
+    box-shadow: -1px -1px 50px rgba(0, 0, 0, .25);
+
+    outline: none;
+
+    height: 100%;
+    width: 100%;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    font-size: large;
+    font-weight: bold;
+}
+.age_input::-webkit-calendar-picker-indicator{
+    /* border: 1px solid red; */
+
+    height: 25px;
+    width: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
+.todays_date_input::-webkit-calendar-picker-indicator{
+    /* border: 1px solid red; */
+
+    height: 25px;
+    width: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
+.dob_date, .todays_date{
+    /* border: 1px solid red; */
+
+    color: #fff;
+
+    height: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 5px;
+
+    font-size: small;
+    font-weight: 500;
+}
+
+.age_result_con{
+    /* border: 1px solid red; */
+    
+    height: 75px;
+    width: 75%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 20px;
+}
+.age_result_txt{
+    /* border: 1px solid red; */
+
+    color: #fff;
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+.warning{
+    /* border: 1px solid red; */
+
+    color: #FF0000;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    font-weight: 500;
+}
+
+.calc_age_button_cont{
+    /* border: 1px solid red; */
+
+    height: 50px;
+    width: 75%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 10px;
+}
+.calc_age_btn{
+    /* border: 1px solid red; */
+    border: 2px solid white;
+    border-radius: 5px;
+
+    background: linear-gradient(to bottom right rgba(0, 0, 0, .25), rgba(255, 255, 255, .25));
+
+    box-shadow: -2px -2px 10px rgba(0, 0, 0, .25), 2px 2px 10px rgba(255, 255, 255, .25);
+
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: small;
+    font-weight: 500;
+
+    cursor: pointer;
+}
+.calc_age_btn:active{
+    box-shadow: none;
+}
